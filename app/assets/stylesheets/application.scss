@@ -11,3 +11,16 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+p {
+  min-height: 120px;
+  margin: 0px
+}
+
+.card {
+  margin: 15px 0;
+}
+
+footer {
+  font-size: 12px !important;
+}

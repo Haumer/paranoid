@@ -19,8 +19,12 @@ p {
 
 .card {
   margin: 15px 0;
+  &.deleted {
+    border-color: red;
+  }
 }
 
 footer {
   font-size: 12px !important;
 }
+

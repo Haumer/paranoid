@@ -20,7 +20,6 @@
                 <p><%= post.content %></p>
                 <footer class="blockquote-footer">Scrubs cast member <cite title="Source Title"><%= post.user.email %></cite></footer>
               </blockquote>
-              <%= link_to "hard delete", post_path(post), method: :delete %> -
               <%= link_to "restore", restore_path(post) %>
             </div>
           </div>

@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   def destroy
     @post = Post.find(params[:id])
-    @post.deleted? ? @post.really_destory : @post.destroy
+    @post.destroy
 
     redirect_back(fallback_location: root_path)
   end

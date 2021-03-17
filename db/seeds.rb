@@ -11,7 +11,7 @@ scrubs.each do |scrub|
 end
 
 User.all.each do |user|
-  rand(1..3).times do
+  3.times do
     Post.create(
       title: Faker::Book.title,
       content: Faker::GreekPhilosophers.quote,
